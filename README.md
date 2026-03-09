@@ -1,13 +1,11 @@
-# Revision-R-Exo-10
-
 <h1> Exploratory Data Analysis: Vehicle Performance (mtcars) </h1>
 
-📌 Project Overview
+<h2> 📌 Project Overview </h2>
 This project serves as a comprehensive Data Science workflow demonstration, covering everything from environment setup and version control to data transformation and visualization. Using the built-in mtcars dataset, I explored the relationships between vehicle design, engine power, and fuel efficiency.
-📊 Dataset Choice
+<h2> 📊 Dataset Choice  </h2>
 Dataset: mtcars (Motor Trend Car Road Tests)
 Justification: I chose this dataset because it provides a clean, multifaceted look at performance metrics (11 variables) for 32 different car models. It is ideal for testing correlations—specifically how physical attributes like weight and engine size impact fuel economy.
-🛠️ Technical Workflow
+<h2> 🛠️ Technical Workflow </h2>
 1. Project Environment & Version Control
 Environment: Initialized using renv to ensure package dependency reproducibility.
 Version Control: Managed via Git, with a remote repository hosted on GitHub.
