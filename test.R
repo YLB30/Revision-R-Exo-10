@@ -53,7 +53,7 @@ ggplot(mtcars, aes(x = reorder(row.names(mtcars), mpg), y = mpg)) +
 # Is there a link between weight and power?
 ggplot(mtcars, aes(x = wt, y = hp)) +
   geom_point(color = "darkorange", size = 3) +
-  geom_smooth(method = "lm", se = FALSE, color = "black", linetype = "dotted") +
+  geom_smooth(method = "lm", se = FALSE, color = "blue", linetype = "dotted") +
   labs(
     title = "Correlation: Vehicle Weight vs. Horsepower",
     x = "Weight (1000 lbs)",
